@@ -12,9 +12,10 @@ def make_squares(turt,size,num):
 
 wn = turtle.Screen()
 wn.bgcolor("lightgreen")
-owen.color("hotpink")
-owen=turtle.Turtle()
 
+owen=turtle.Turtle()
+owen.color("hotpink")
+owen.pensize(3)
 
 
 make_squares(owen,20,5)
