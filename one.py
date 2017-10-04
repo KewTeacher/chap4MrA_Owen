@@ -11,6 +11,8 @@ def make_squares(turt,size,num):
         turt.forward(2*size)
 
 wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+owen.color("hotpink")
 owen=turtle.Turtle()
 
 
