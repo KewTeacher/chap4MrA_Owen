@@ -6,6 +6,10 @@ def make_squares(turt,size,num):
     inner most and also half the distance between squares,
     num is the number of squares
     """
+    #we're using two variables for size,
+    #origSize stayes the same in order to keep the spacing the same
+    #size increases by origSize with each repitition
+
     origSize = size
     for j in range(num):
         turt.pendown()
